@@ -1,0 +1,26 @@
+# Compiled Output
+target/
+*.class
+
+# Logs
+*.log
+
+# IDE Files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Maven
+.mvn/timing.properties
+
+# Sensitive config - never commit real credentials
+application-local.properties
+application-secret.properties
+*.env
+.env
